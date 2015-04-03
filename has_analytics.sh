@@ -1,17 +1,131 @@
 #!/bin/sh
 PORTALS='
-data.colorado.gov            data.nola.gov                healthmeasures.aspe.hhs.gov  data.cityofchicago.org       data.wa.gov                 
-opendata.go.ke               data.austintexas.gov         data.cityofnewyork.us        info.samhsa.gov              data.taxpayer.net           
-data.cityofmadison.com       data.slcgov.com              data.illinois.gov            data.somervillema.gov        iranhumanrights.socrata.com 
-data.hawaii.gov              data.maryland.gov            data.ny.gov                  data.mo.gov                  data.nfpa.org               
-nmfs.socrata.com             data.govloop.com             data.sunlightlabs.com        electionsdata.kingcounty.gov data.undp.org               
-deleon.socrata.com           data.energystar.gov          explore.data.gov             data.weatherfordtx.gov       bronx.lehman.cuny.edu       
-data.sfgov.org               data.edmonton.ca             data.consumerfinance.gov     www.metrochicagodata.org     data.kingcounty.gov         
-data.baltimorecity.gov       health.data.ny.gov           dati.lombardia.it            datacatalog.cookcountyil.gov www.opendatanyc.com         
-cookcounty.socrata.com       data.oregon.gov              data.oaklandnet.com          data.raleighnc.gov           finances.worldbank.org      
-data.honolulu.gov            opendata.socrata.com         data.cityofboston.gov        data.ok.gov                  data.cms.gov                
-data.snostat.org             www.halifaxopendata.ca       data.wellingtonfl.gov        gettingpastgo.socrata.com    www.data.act.gov.au         
-data.redmond.gov             data.seattle.gov             data.montgomerycountymd.gov  data.acgov.org               data.medicare.gov     
+data.act.gov.au
+wfp.demo.socrata.com
+data.acgov.org
+data.atf.gov
+datapilot.american.edu
+bmgf.demo.socrata.com
+bristol.azure-westeurope-prod.socrata.com
+data.cacs.org
+cdph.data.ca.gov
+bythenumbers.sco.ca.gov
+bythenumbers.sco.ca.gov
+data.cdc.gov
+data.cms.hhs.gov
+data.albanyny.gov
+data.austintexas.gov
+data.baltimorecity.gov
+data.illinois.gov/belleville
+belohorizonte.azure-eastus-prod.socrata.com
+berkeley.demo.socrata.com
+data.cityofboston.gov
+data.burlingtonvt.gov
+data.illinois.gov/champaign
+performance.chattanooga.gov
+data.cityofchicago.org
+data.culvercity.org
+dallasopendata.com
+data.cityofdeleon.org
+data.edmonton.ca
+data.eindhoven.nl
+stat.cityofgainesville.org
+gavaobert.gavaciutat.cat
+hampton.demo.socrata.com
+data.hartford.gov
+data.honolulu.gov
+data.kcmo.org
+opendata.lasvegasnevada.gov
+controllerdata.lacity.org
+data.cityofmadison.com
+data.murphytx.org
+data.ci.newark.nj.us
+data.nola.gov
+data.cityofnewyork.us
+opendatanyc.com
+data.oaklandnet.com
+data.providenceri.gov
+data.raleighnc.gov
+data.redmond.gov
+data.illinois.gov/rockford
+opendata.rubi.cat
+data.slcgov.com
+data.sfgov.org
+reportcard.santamonicayouth.net
+data.seattle.gov
+data.somervillema.gov
+data.southbendin.gov
+data.murphytx.org
+data.weatherfordtx.gov
+data.wellingtonfl.gov
+westsacramento.demo.socrata.com
+data.winnipeg.ca
+data.colorado.gov
+consumerfinance.gov/complaintdatabase
+datacatalog.cookcountyil.gov
+exploredata.gov.ro
+data.acgov.org
+performance.smcgov.org
+performance.westsussex.gov.uk
+criminalytics.org
+data.gov
+data.dcpcsb.org
+strategicplanning.aspe.hhs.gov
+health.data.ny.gov
+dot.demo.socrata.com
+data.energystar.gov
+explore.data.gov/ethics
+ethics.data.gov
+inforegio.azure-westeurope-prod.socrata.com
+opendata.go.ke
+explore.data.gov
+halifaxopendata.ca
+healthmeasures.aspe.hhs.gov
+irs.demo.socrata.com
+data.kingcounty.gov
+bronx.lehman.cuny.edu
+dati.lombardia.it
+data.medicare.gov
+metrochicagodata.com
+nats.demo.socrata.com/login
+data.mo.gov
+data.montgomerycountymd.gov
+data.nfpa.org
+nycopendata.socrata.com
+opendatanyc.com
+data.ny.gov
+nmfs.socrata.com
+data.ok.gov
+data.oregon.gov
+data.eae.alberta.ca
+rdw.azure-westeurope-prod.socrata.com
+dati.friuliveneziagiulia.it
+data.snostat.org
+data.colorado.gov
+data.ct.gov
+data.hawaii.gov
+data.illinois.gov
+data.maryland.gov
+data.michigan.gov
+data.mo.gov
+data.datamontana.us
+data.nj.gov
+healthdata.nj.gov
+data.ny.gov
+health.data.ny.gov
+data.ok.gov
+data.oregon.gov
+data.vermont.gov
+data.wa.gov
+info.samhsa.gov
+data.taxpayer.net
+data.austintexas.gov
+hdr.undp.org/en/countries
+data.undp.org
+usaid.gov/results-and-data/progress-data/data/dca
+open.whitehouse.gov
+data.wokingham.gov.uk
+finances.worldbank.org
 '
 
 mkdir -p analytics
